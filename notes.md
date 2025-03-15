@@ -11,6 +11,7 @@
 
 - include sources in design doc and readme for all data sources
 - Will probably need a definitions sections for all the acronyms
+- Can use NORAD CAT ID from simplified collision data to get the name from full satcat to get the info from full ESA to pinpoint top 100 at risk of collision objects and idenfity common features
 
 
 # Entities DF from ESA
@@ -21,3 +22,27 @@
 # Celestrek 
 
 - Scraped the lost object data from their webpage
+
+# Goal 1: Analyzing object and debris growth from 1960 to present
+
+- Can use the full satcat data from celestrek.  Can use it to plot # of objects by launch date ,the accumulation of objects over time, can break it down by type and by orbit
+- Can merge with full esa data to break down by ObjectClass
+
+# Goal 2: Predicting debris growth in LEO
+
+- Use the leo_objects data from space track.  should be able to get all relevant info just from that one
+
+# Goal 3: Clustering density for top 5 areas
+
+- should be able to use full satcat and the esa data for location and size data
+
+# Goal 4: Collision probability
+
+- use full_esa (or satcat), simplified collision data, and lost_object data
+- (we also have decayed object data and the historical tracking predictions so might be able to combine some of that to validate future predictions)
+
+
+# ESA Full Data
+
+- Can drop VimpelID, that just connects to another tracking org
+- Lot of NA's, can drop all the records that are missing if there are no identifiers
