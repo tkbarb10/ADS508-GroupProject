@@ -1,0 +1,31 @@
+{
+    "version": "1.0",
+    "pre_training_bias_metrics": {
+        "label": "orbit_type",
+        "facets": {
+            "object_type": [
+                {
+                    "value_or_threshold": "DEBRIS",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": -0.13614888590946816
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.2415017232220557
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.029458747110006282
+                        }
+                    ]
+                }
+            ]
+        },
+        "label_value_or_threshold": "ORB"
+    }
+}

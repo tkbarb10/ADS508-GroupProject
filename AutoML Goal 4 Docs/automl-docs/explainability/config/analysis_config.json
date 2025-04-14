@@ -1,0 +1,67 @@
+{
+    "label": "max_prob",
+    "headers": [
+        "max_prob",
+        "norad_cat_id_1",
+        "norad_cat_id_2",
+        "object_name_1",
+        "object_name_2",
+        "owner_1",
+        "object_type_1",
+        "launch_date_1",
+        "launch_site_1",
+        "period_1",
+        "inclination_1",
+        "apogee_1",
+        "perigee_1",
+        "orbit_type_1",
+        "owner_2",
+        "object_type_2",
+        "launch_date_2",
+        "launch_site_2",
+        "period_2",
+        "inclination_2",
+        "apogee_2",
+        "perigee_2",
+        "orbit_type_2"
+    ],
+    "dataset_type": "text/csv",
+    "methods": {
+        "shap": {
+            "baseline": [
+                [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            ],
+            "num_samples": 2048,
+            "agg_method": "mean_abs",
+            "save_local_shap_values": true,
+            "use_logit": false
+        },
+        "report": {
+            "name": "explainability-report",
+            "title": "Explainability Report"
+        }
+    }
+}
