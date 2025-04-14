@@ -12,12 +12,3 @@
 - include sources in design doc and readme for all data sources
 - Will probably need a definitions sections for all the acronyms
 
-
-# Entities DF from ESA
-
-- I can connect this to objects but it'll take awhile, probably have that or similar data in the CelesTrek or Space-Track data
-
-
-# Celestrek 
-
-- Scraped the lost object data from their webpage
